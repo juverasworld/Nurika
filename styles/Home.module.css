@@ -1,10 +1,60 @@
-.container {
+.container_fluid {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  margin: 0px;
+  padding: 0px;
+  /* padding: 0 0.5rem; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  background: url(../public/Background.jpg);
+  /* background: linear-gradient(74.84deg, #9FF5C5 0.98%, #F89820 97.15%); */
+
+  /* background: url(../public/Background.jpg); */
+}
+.AppGlass {
+  background-color: rgba(255, 255, 255, 0.54);
+  padding: 0 0.5rem; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: nullpx;
+  line-height: 180px;
+  font-size: 150px;
+  font-family: lato;
+}
+.AppGlass1{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  border-radius: nullpx;
+  line-height: 30px;
+  font-size: 30px;
+  font-family: lato;
+}
+.Hey {
+  background: linear-gradient(74.84deg, #9ff5c5 0.98%, #f89820 97.15%);
+}
+.image{
+  /* width:10px;
+  height:10px; */
+  display:inline;
+  margin:0px;
+  padding:0px;
+}
+.headerList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
 }
 
 .title a {
@@ -32,7 +82,6 @@
 .description {
   text-align: center;
 }
-
 
 .description {
   line-height: 1.5;
@@ -89,3 +138,4 @@
     flex-direction: column;
   }
 }
+/*  */
