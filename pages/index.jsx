@@ -19,7 +19,8 @@ export default function Home() {
           <li className='mr-10'><Link href="/Post/Community">Community</Link></li>
           <li className='mr-10'><Link href="/Post/Team">Team</Link></li>
         </ol>
-        <button type="button" className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px]`}>Join the waitlist</button>
+        <Link href='/Post/Waitlist'>
+          <button className='mr-4' >Join the waitlist</button> </Link>
       </div>
       <div className={styles.container_fluid} >
         <div className={`text-black-900 text-[150px] min-w-screen min-h-screen mx-auto flex items-center justify-center ${styles.AppGlass}`}>

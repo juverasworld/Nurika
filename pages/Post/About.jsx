@@ -22,21 +22,22 @@ export default function About() {
           Team">Team</Link></li>
         </ol> */}
         {/*  className=' sm:flex start justify-end items-center w-[25px] flex-1 ' */}
-        <button  >Join the waitlist</button>
-      </div>    
-      <div className={styles.container_fluid}>
-      <div className ="text-white text-center text-[150px] font-normal font-lato"> It Pays To 
-         Walk</div>
-        <div className={`text-black-900 text-[50px] min-w-screen min-h-screen mx-auto flex items-center justify-center ${styles.AppGlass1}`}>
-          
-        <Image
-              src={runningLady}
-              alt="runningLady"
-              className={`w-[50%] h-[50%] justify-between items-center ${styles.imageRun}`} />
-        
-      
-      
+        <Link href='/Waitlist'>
+          <button  >Join the waitlist</button> </Link>
       </div>
+      <div className={styles.container_fluid}>
+        <div className="text-white text-center text-[150px] font-normal font-lato"> It Pays To
+          Walk</div>
+        <div className={`text-black-900 text-[50px] min-w-screen min-h-screen mx-auto flex items-center justify-center ${styles.AppGlass1}`}>
+
+          <Image
+            src={runningLady}
+            alt="runningLady"
+            className={`w-[50%] h-[50%] justify-between items-center ${styles.imageRun}`} />
+
+
+
+        </div>
       </div>
     </section >
   );

@@ -9,9 +9,33 @@
   justify-content: center;
   align-items: center; */
   background: url(../public/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   /* background: linear-gradient(74.84deg, #9FF5C5 0.98%, #F89820 97.15%); */
 
   /* background: url(../public/Background.jpg); */
+}
+/* .contain{
+  background: url(../public/Background.jpg);
+} */
+/* .whiteGeneral{
+  padding: 2rem;
+} */
+.contain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0b0d17;
+}
+.onTop {
+  background-color: rgba(255, 255, 255, 0.54);
+  font-size: 15px;
+  font-family: "lato";
+  font-weight: 400;
+}
+.bg{
+  background-color: #0b0d17; 
 }
 .AppGlass {
   background-color: rgba(255, 255, 255, 0.54);
@@ -33,23 +57,23 @@
   justify-content: center;
   align-items: center;
 }
-.textAbout{
-/* position: absolute;
+.textAbout {
+  /* position: absolute;
 top: 25%;
 bottom: -25%; */
-font-family: 'Lato';
-font-style: normal;
-font-weight: 900;
-font-size: 150px;
-line-height: 180px;
-color:white;
-/* color: linear-gradient(270deg, #0B8247 0%, #F89820 102.87%); */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 180px;
+  color: white;
+  /* color: linear-gradient(270deg, #0B8247 0%, #F89820 102.87%); */
 
-/* -webkit-background-clip: text;
+  /* -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
 /* text-fill-color: transparent; */
-/* text-shadow: -6px 1px 0px #FFFFFF; */ 
+  /* text-shadow: -6px 1px 0px #FFFFFF; */
 }
 .AppGlass1 {
   display: flex;
@@ -61,15 +85,21 @@ background-clip: text;
   font-size: 30px;
   font-family: lato;
 }
-
+.Whitepaper {
+  padding: 3%;
+  color: black;
+  font-size: small;
+  font-family: 'lato';
+}
+/* 
 .Whitepaper {
   font-family: Lato;
-  font-size: 25px;
+  font-size: 1.2em;
   font-weight: 700;
-  /* line-height: 30px; */
-  /* letter-spacing: 0.02em; */
+  line-height: 30px; */
+/* letter-spacing: 0.02em;
   text-align: justified;
-}
+} */
 .Hey {
   background: linear-gradient(74.84deg, #9ff5c5 0.98%, #f89820 97.15%);
 }
