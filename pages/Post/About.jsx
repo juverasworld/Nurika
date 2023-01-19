@@ -1,6 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
+import React from "react";
 import styles from '../../styles/Home.module.css'
+import runningLady from '../../public/runningLady.png';
+import Image from "next/image";
 // import styles from '../styles/Home.module.css'
 
 export default function About() {
@@ -21,7 +24,14 @@ export default function About() {
         <button className='text-pink-800' >Join the waitlist</button>
       </div>
       <div className={styles.container_fluid}>
+        <div>
+        <Image
+              src={runningLady}
+              alt="runningLady"
+              className={`w-[50%] h-[50%] ${styles.imageRun}`} />
+        
       <div className={`text-black-900 text-[50px] min-w-screen min-h-screen mx-auto flex items-center justify-center ${styles.AppGlass1}`}> YOUR ACCOUNTABILIY <br/>  PATNER
+      </div>
       </div>
       </div>
     </section >
