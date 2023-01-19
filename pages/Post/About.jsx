@@ -24,14 +24,15 @@ export default function About() {
         <button className='text-pink-800' >Join the waitlist</button>
       </div>
       <div className={styles.container_fluid}>
-        <div>
+        <div className={`text-black-900 text-[50px] min-w-screen min-h-screen mx-auto flex items-center justify-center ${styles.AppGlass1}`}>
+        <div className={styles.textAbout}> It Pays To Walk </div>
         <Image
               src={runningLady}
               alt="runningLady"
-              className={`w-[50%] h-[50%] ${styles.imageRun}`} />
+              className={`w-[50%] h-[50%] justify-between items-center ${styles.imageRun}`} />
         
-      <div className={`text-black-900 text-[50px] min-w-screen min-h-screen mx-auto flex items-center justify-center ${styles.AppGlass1}`}> YOUR ACCOUNTABILIY <br/>  PATNER
-      </div>
+      
+      
       </div>
       </div>
     </section >

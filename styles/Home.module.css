@@ -25,11 +25,31 @@
   font-family: lato;
 }
 .imageRun {
+  position:relative;
   width: 50%;
   height: 50%;
   display: inline-block;
   justify-content: center;
   align-items: center;
+}
+.textAbout{
+  position: absolute;
+left: -8.19%;
+right: -8.3%;
+top: 25%;
+bottom: -25%;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 150px;
+line-height: 180px;
+/* identical to box height */
+background: linear-gradient(270deg, #0B8247 0%, #F89820 102.87%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+/* text-fill-color: transparent; */
+text-shadow: -6px 1px 0px #FFFFFF;
 }
 .AppGlass1 {
   display: flex;
