@@ -28,14 +28,37 @@
   justify-content: space-between;
   background-color: #0b0d17;
 }
+.button1{
+  padding: 0.3rem 2rem;
+  background: #f89820;
+  color: white;
+}
+.buttons{
+  /* font-family: lato;
+  font-size: large;
+  font-weight: bolder; */
+  text-align: center;
+  /* margin-bottom: 3%;
+  padding-bottom: 5%;
+  border: 1px orange solid;
+  width:auto; */
+  
+
+}
+.logo {
+  font-family: lato;
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+}
 .onTop {
   background-color: rgba(255, 255, 255, 0.54);
   font-size: 15px;
-  font-family: "lato";
+  font-family: 'lato';
   font-weight: 400;
 }
-.bg{
-  background-color: #0b0d17; 
+.bg {
+  background-color: #0b0d17;
 }
 .AppGlass {
   background-color: rgba(255, 255, 255, 0.54);
@@ -56,6 +79,14 @@
   /* display: inline-block; */
   justify-content: center;
   align-items: center;
+}
+@media (max-width:768px){
+  .imageRun{
+    width:100%;
+    height: 100;
+    justify-content: center;
+    align-items: center;   
+  }
 }
 .textAbout {
   /* position: absolute;
@@ -110,6 +141,12 @@ background-clip: text;
   margin: 0px;
   padding: 0px;
 }
+@media (max-width:700px){
+  .image{
+    /* width:30px;
+    height:20px */
+  }
+}
 .headerList {
   display: flex;
   flex-direction: row;
@@ -119,7 +156,7 @@ background-clip: text;
 .Header {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content:flex-start ;
   list-style: none;
 }
 
