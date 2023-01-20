@@ -22,10 +22,10 @@ export default function Home() {
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
           {navLinks.map((nav, index) => (<li>
             <Link key={nav.id}
-            href= {`/${nav.id}`}
-            className={`font-lato font-normal cursor-pointer text-[16px] text-black ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
-          >
-            <a>{nav.title}</a> </Link>
+              href={`/${nav.id}`}
+              className={`font-lato font-normal cursor-pointer text-[16px] text-black ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
+            >
+              <a>{nav.title}</a> </Link>
           </li>))}
         </ul>
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -39,12 +39,12 @@ export default function Home() {
             <ul className="list-none flex flex-col justify-end items-center flex-1">
               {navLinks.map((nav, index) => (
                 <li>
-                <Link key={nav.id}
-                 href= {`/${nav.id}`} >
-                  
-                  className={`font-lato font-normal cursor-pointer text-[16px] text-black ${index === navLinks.length - 1 ? "mr-0" : "mb-4"}`}
-                
-                  <a >{nav.title}</a></Link>
+                  <Link key={nav.id}
+                    href={`/${nav.id}`}
+
+                    className={`font-lato font-normal cursor-pointer text-[16px] text-black ${index === navLinks.length - 1 ? "mr-0" : "mb-4"}`}>
+
+                    <a>{nav.title}</a> </Link>
                 </li>))}
             </ul>
 
